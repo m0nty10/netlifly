@@ -1,0 +1,30 @@
+form  {
+    display: grid;
+    width: 380px;
+    box-sizing: border-box;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+    padding: 2rem;
+    background-color: khaki;
+}
+
+label   {
+    grid-column: 1/2;
+    font-size: 1.3em;
+}
+
+select   {
+    grid-column: 2/3;
+    width: 130px;
+}
+
+input   {
+    width: 30px;
+    grid-column: 3/4;
+
+}
+
+button  {
+    grid-column: 1/4;
+    width: 100%;
+}
