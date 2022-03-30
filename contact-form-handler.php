@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 
-$email_from = 'folktutor@gmail.com';
+$email_from = 'insert email';
 
 $email_subject = "CMM - New Form Submission";
 
